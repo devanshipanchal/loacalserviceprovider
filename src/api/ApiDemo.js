@@ -63,8 +63,7 @@ export const ApiDemo = () => {
 
         <div>
       
-            
-      
+                  
             <h1>Role Detail</h1>
             <h3>Retrive All Roles</h3>
             <button onClick={getData}>Get Roles</button>

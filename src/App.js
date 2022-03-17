@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import { Login } from './components/Login';
-// import { Navbar } from './components/Navbar';
 // import { Home } from './pages/Home';
 import {Navbar} from './pages/Navbar';
 // import { SubHome } from './components/SubHome';
@@ -15,13 +14,9 @@ import {Navbar} from './pages/Navbar';
 // import { SimpleForm } from './components/SimpleForm';
 // import { EmployeeRegistration } from './components/EmployeeRegistration';
 // import { ApiDemo } from './api/ApiDemo';
- import { ApiDemo3 } from "./api/ApiDemo3";
-        
-
-
+ import { ApiDemo3 } from "./api/ApiDemo3";     
 // import { FileUpload } from "./components/FileUpload";
 // import { SelectDemo } from "./components/SelectDemo";
-
 // import { ApiDemo } from "./api/ApiDemo";
 // import { ApiDemo2 } from "./api/ApiDemo2";
 
@@ -40,7 +35,7 @@ function App() {
       <ApiDemo2/>
        <FileUpload/> */}
       <ApiDemo3/>
-      <Login/> 
+      {/* <Login/>  */}
      
 
       {/* <Routes>
